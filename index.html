@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remembering Erika Weber | Mälestades Erika Weberit | Вспоминая Эрику Вебер</title>
+<style>
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+background-color: #f0f0f0;
+color: #4a4a4a;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-height: 100vh;
+}
+.container {
+background-color: #ffffff;
+max-width: 800px;
+margin: 30px auto;
+padding: 30px 40px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+border-top: 5px solid #cccccc;
+}
+.memorial-image {
+display: block;
+max-width: 250px;
+height: auto;
+margin: 0 auto 30px auto;
+border-radius: 4px;
+opacity: 0.9;
+}
+.lang-switcher {
+text-align: center;
+margin-bottom: 25px;
+padding-bottom: 15px;
+border-bottom: 1px solid #e0e0e0;
+}
+.lang-switcher a {
+text-decoration: none;
+color: #666666;
+margin: 0 10px;
+padding: 5px 10px;
+border-radius: 4px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+.lang-switcher a:hover {
+background-color: #e0e0e0;
+color: #333333;
+}
+.lang-section,
+.footer-lang {
+display: none;
+animation: fadeIn 0.5s ease-in-out;
+}
+#en,
+#footer-en {
+display: block;
+}
+#et:target { display: block; }
+#et:target ~ #ru { display: none; }
+#et:target ~ #en { display: none; }
+#et:target ~ footer #footer-et { display: block; }
+#et:target ~ footer #footer-ru { display: none; }
+#et:target ~ footer #footer-en { display: none; }
+#ru:target { display: block; }
+#ru:target ~ #en { display: none; }
+#ru:target ~ footer #footer-ru { display: block; }
+#ru:target ~ footer #footer-et { display: none; }
+#ru:target ~ footer #footer-en { display: none; }
+#en:target { display: block; }
+#en:target ~ footer #footer-en { display: block; }
+#en:target ~ footer #footer-et { display: none; }
+#en:target ~ footer #footer-ru { display: none; }
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+h1 {
+text-align: center;
+color: #555555;
+font-weight: 300;
+margin-bottom: 10px;
+}
+h2 {
+text-align: center;
+color: #666666;
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 30px;
+font-size: 1.2em;
+border-bottom: 1px solid #eee;
+padding-bottom: 10px;
+}
+p {
+margin-bottom: 1.5em;
+text-align: justify;
+}
+.button-container {
+text-align: center;
+margin-top: 30px;
+}
+.button {
+display: inline-block;
+background-color: #b0b0b0;
+color: #ffffff;
+padding: 12px 25px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: 500;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+background-color: #9a9a9a;
+transform: translateY(-2px);
+}
+footer {
+margin-top: 40px;
+text-align: center;
+font-size: 0.9em;
+color: #888888;
+padding-bottom: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Erika Weber</h1>
+<img src="img/stone.jpg" alt="In memory of Erika Weber 1944-2025" class="memorial-image">
+<div class="lang-switcher">
+<a href="#et" id="lang-et">Eesti keeles</a> |
+<a href="#en" id="lang-en">In English</a> |
+<a href="#ru" id="lang-ru">По-русски</a>
+</div>
+<div id="et" class="lang-section" lang="et">
+<h2>Mälestades Erikat</h2>
+<p>Oleme hiljuti lahkunud Erika Weberi lapselapsed. Tema mälestuse austamiseks ja tema alustatud elulooraamatu lõpetamiseks pöördume teie poole, kes te teda tundsite.</p>
+<p>Usume, et sõprade, pere ja tuttavate jagatud lood ning mälestused on hindamatu väärtusega aarded. Oleksime südamest tänulikud, kui kaaluksite oma mälestuste jagamist Erikast meiega. Plaanime läbi viia intervjuusid eesti, inglise ja vene keeles.</p>
+<p>Kui olete valmis osalema ja oma lugu jagama, palun registreeruge alloleva lingi kaudu. Teie panus aitab meil luua rikkalikuma pildi tema elust ja säilitada tema pärandit tulevastele põlvedele.</p>
+<div class="button-container">
+<a href="https://forms.gle/AdJX57a1FESLq67P6" target="_blank" class="button">Registreeru intervjuule</a>
+</div>
+</div>
+<div id="ru" class="lang-section" lang="ru">
+<h2>Вспоминая Эрику</h2>
+<p>Мы внуки Эрики Вебер, которая недавно ушла из жизни. Чтобы почтить ее память и помочь завершить книгу о ее жизни, которую она начала писать, мы обращаемся к тем, кто ее знал.</p>
+<p>Мы верим, что истории и воспоминания, которыми делятся друзья, семья и знакомые, являются бесценными сокровищами. Мы будем глубоко признательны, если вы рассмотрите возможность поделиться с нами своими воспоминаниями об Эрике. Мы планируем проводить интервью на эстонском, английском и русском языках.</p>
+<p>Если вы готовы принять участие и поделиться своей историей, пожалуйста, зарегистрируйтесь по ссылке ниже. Ваш вклад поможет нам создать более полную картину ее жизни и сохранить ее наследие для будущих поколений.</p>
+<div class="button-container">
+<a href="https://forms.gle/AdJX57a1FESLq67P6" target="_blank" class="button">Записаться на интервью</a>
+</div>
+</div>
+<div id="en" class="lang-section" lang="en">
+<h2>Remembering Erika</h2>
+<p>We are the grandchildren of Erika Weber, who recently passed away. To honour her memory and to help finish the book she had started writing about her life, we are reaching out to those who knew her.</p>
+<p>We believe that stories and memories shared by friends, family, and acquaintances are invaluable treasures. We would be deeply grateful if you would consider sharing your memories of Erika with us. We are planning to conduct interviews in Estonian, English, and Russian.</p>
+<p>If you are willing to participate and share your story, please sign up using the link below. Your contribution will help us create a richer picture of her life and preserve her legacy for future generations.</p>
+<div class="button-container">
+<a href="https://forms.gle/AdJX57a1FESLq67P6" target="_blank" class="button">Sign up for an Interview</a>
+</div>
+</div>
+<footer>
+<p id="footer-et" class="footer-lang" lang="et">Täname, et aitate meil Erika mälestust austada.</p>
+<p id="footer-ru" class="footer-lang" lang="ru">Спасибо, что помогаете нам почтить память Эрики.</p>
+<p id="footer-en" class="footer-lang" lang="en">Thank you for helping us honour Erika's memory.</p>
+</footer>
+</div>
+</body>
+</html>
